@@ -3,4 +3,4 @@ const hexCodes = ['#ff0000', '#ffa500', '#ffff00', '#008000', '#0000ff', '#4b008
 
 setInterval(() => {
   headingEl.style.color = hexCodes[Math.floor(Math.random() * hexCodes.length)]
-}, 500)
+}, 100)
